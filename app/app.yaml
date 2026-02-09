@@ -1,0 +1,6 @@
+services:
+  s3app:
+    build: .
+    container_name: 68-s3-app
+    ports:
+      - "3000:3000"
